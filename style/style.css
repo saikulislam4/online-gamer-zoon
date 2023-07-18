@@ -130,13 +130,14 @@ body {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 60px;
+    background: url(../images/banner-info-bg.png) no-repeat;
+    background-position: -100px;
+    background-size: fill;
 
 }
 
 .banner-container .banner-info {
     padding: 170px 150px 170px 150px;
-    background: url(../images/banner-info-bg.png) repeat no-repeat;
-    background-size: cover;
 
 }
 
@@ -267,4 +268,28 @@ body {
 
 .online-game-content .inner-item:hover .overly {
     opacity: 0.8;
+}
+
+/* download styles start */
+.download-container{
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 120px;
+    align-items: center;
+}
+.download-container .download-info{
+    text-align: end;
+}
+.download-container .download-image{
+    position: relative;
+    grid-column: span 2;
+    padding-left: 145px;
+    padding-bottom: 75px;
+    
+}
+.download-container .download-image .overly-picture{
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
