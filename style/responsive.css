@@ -13,14 +13,17 @@
     .primary-title {
         font-size: 2em;
     }
-
+    /* padding  */
+    .nav-container, .banner-info, .gamer-info, .online-game-title, .online-game-container, .download-info{
+        padding: 0 50px;
+    }
 
     .flow-us, .link a {
         text-align: center;
         margin-left: 0 !important;
      
     }
-    .nav-container, .nav-icon-link, .online-game-container{
+    .nav-icon-link, .online-game-container{
         display: grid;
        grid-template-columns: repeat(1, 1fr);
     }
@@ -34,15 +37,16 @@
        
     }
     /* banner */
-    .banner-container, .gamer-container{
+    .banner-container, .gamer-container, .download-container{
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
         gap: 0;
     }
+
     .banner-container .banner-info {
-        padding: 20px 0px;
         order: 1;
+        padding: 30px 50px;
       
     }
     /* gamer section */
@@ -50,9 +54,20 @@
         text-align: center;
     }
     /* online game section */
-    .online-game-title, .online-game-container {
+    .online-game-title, .online-game-container, .download-container  {
         margin-top: 0;
+        margin-bottom: 20px;
 
     }
+    .download-container .download-info {
+        text-align: center;
+    }
+    .download-container .download-image .overly-picture {
+ 
+        width: 40%;
+    }
+
+
+   
     
 }
