@@ -1,0 +1,53 @@
+/* small device */
+@media screen and (max-width:576px) {
+    /* header */
+    body{
+        margin: 0 20px;
+    }
+    .btn-primary{
+
+        font-size: 1em;
+        padding: 0.8em 1em;
+
+    }
+    .primary-title {
+        font-size: 2em;
+    }
+
+
+    .flow-us, .link a {
+        text-align: center;
+        margin-left: 0 !important;
+     
+    }
+    .nav-container, .nav-icon-link{
+        display: grid;
+       grid-template-columns: repeat(1, 1fr);
+    }
+    img{
+        width: 100%;
+    }
+     .link a, .flow-us {
+        display: block;
+        margin-bottom: 2em;
+        margin-left: 0em;
+       
+    }
+    /* banner */
+    .banner-container, .gamer-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 0;
+    }
+    .banner-container .banner-info {
+        padding: 20px 0px;
+        order: 1;
+      
+    }
+    /* gamer section */
+    .gamer-container .gamer-info {
+        text-align: center;
+    }
+    
+}
