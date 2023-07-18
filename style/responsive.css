@@ -20,7 +20,7 @@
         margin-left: 0 !important;
      
     }
-    .nav-container, .nav-icon-link{
+    .nav-container, .nav-icon-link, .online-game-container{
         display: grid;
        grid-template-columns: repeat(1, 1fr);
     }
@@ -48,6 +48,11 @@
     /* gamer section */
     .gamer-container .gamer-info {
         text-align: center;
+    }
+    /* online game section */
+    .online-game-title, .online-game-container {
+        margin-top: 0;
+
     }
     
 }
