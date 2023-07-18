@@ -22,7 +22,6 @@ li {
 
 body {
     color: var(--primary-color);
-    background-color: var(--primary-bg);
     font-family: var(--primary-font-family);
 
 }
@@ -293,4 +292,17 @@ body {
     position: absolute;
     left: 0;
     bottom: 0;
+}
+/* careers styles start */
+.careers-container{
+    background:var(--btn-primary-bg);
+    
+}
+.careers-container .careers-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.careers-container .category-content{
+    display: flex;
+    justify-content: space-between;
 }
