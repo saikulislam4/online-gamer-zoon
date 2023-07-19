@@ -184,7 +184,10 @@ body {
 .banner-container .banner-info .btn-modified {
     background: #4EC5F7;
 }
+.inner-image .banner-image-modified{
+    width: 75% !important;
 
+}
 /* gamer section styles start */
 .gamer-container {
     display: grid;
