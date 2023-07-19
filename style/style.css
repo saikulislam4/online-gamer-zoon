@@ -345,6 +345,13 @@ body {
     color: var(--primary-bg);
     margin-bottom: 1em;
 }
+.category-item li i {
+    margin-left: 5px;
+    font-size: 12px;
+}
+.category-item-modified{
+    text-align: end;
+}
 
 #careers-btn-modified {
     margin-top: 40px;
