@@ -68,7 +68,7 @@
 
     .banner-container .banner-info {
         order: 1;
-        padding: 30px 50px;
+        padding: 0 50px;
     }
 
     /* gamer section */
@@ -222,10 +222,12 @@
         background-size:contain;
         background-position: bottom;
     }
-
+    .inner-image.container {
+        text-align: center;
+    }
     .banner-container .banner-info {
         order: 1;
-        padding: 30px 50px;
+        padding: 22% 50px;
 
     }
 
