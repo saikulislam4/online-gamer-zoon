@@ -79,6 +79,7 @@ body {
     --primary-bg: #ffffff;
     --primary-color: #0B0223;
     --secondary-color: #534C64;
+    --footer-color:#ffffff99;
     --bg-color-10: #0b02231a;
     --primary-font-family: 'Work Sans';
     --btn-primary-bg: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
@@ -389,4 +390,72 @@ body {
 
 .game-category-item:hover a {
     color: #F948B2;
+}
+/* footer section */
+.footer-container{
+    text-align: center;
+    padding: 120px 250px;
+    background: var(--primary-color);
+
+}
+.footer-logo {
+    height: 60px;
+    font-weight: 700;
+    
+}
+.logo-font-modified{
+    text-transform: capitalize;
+    margin: 0; 
+    padding: 0;
+    height: 0;
+    color:#FF42A5;
+    margin-left: 10px;
+}
+.footer-logo a>img {
+    height: 33px;
+    width: auto !important;
+    margin-right: 7px;
+    position: absolute;
+    margin-left: -67px;
+    margin-top: 2px;
+}
+
+.footer-container a{
+    color: var(--primary-bg);
+}
+/* footer services */
+.footer-services{
+    display: grid;
+    padding: 0 350px;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 50px 0;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+ .footer-icon >a{
+    margin: 0 12px;
+}
+.footer-icon{
+    font-size: 1.5em;
+
+}
+/* footer terms & condition */
+.footer-terms-and-condition{
+    display: grid;
+    padding: 0 400px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+
+}
+.footer-terms-and-condition a{
+    color: var(--footer-color);
+    text-transform: capitalize;
+
+}
+/* footer reservation */
+.footer-reservation{
+    color: var(--footer-color);
+    margin-top: 20px;
+    line-height: 25px;
 }
