@@ -171,11 +171,17 @@ body {
     color: #F948B2;
 
 }
-
+.banner-inner {
+    padding:100px 0;
+    display: grid;
+    justify-content: center;
+}
 .banner-container .banner-info .banner-button {
     margin-top: 2.3em;
     display: flex;
     gap: 1.5em;
+
+    justify-content: center;
 }
 
 .banner-container .banner-info .btn-modified {
@@ -366,7 +372,9 @@ body {
     border: 2px solid transparent;
     border-radius: 48px;
     transition: 0.3s ease;
+    justify-content: center;
     cursor: pointer;
+
 
 
 }

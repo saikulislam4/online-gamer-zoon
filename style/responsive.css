@@ -1,5 +1,136 @@
 /* small device */
 @media screen and (max-width:576px) {
+    /* header */
+    .download-container,
+    .careers-item-image,
+    .banner-image {
+        margin: 0 20px;
+    }
+    .btn-primary {
+
+        font-size: 1em;
+        padding: 0.8em 1em;
+    }
+    .primary-title {
+        font-size: 2em;
+    }
+    /* padding  */
+    .nav-container,
+    .banner-info,
+    .gamer-info,
+    .online-game-title,
+    .online-game-container,
+    .download-info,
+    .footer-container,
+    .footer-reservation  {
+        padding: 0 50px;
+    }
+    .flow-us,
+    .link a {
+        text-align: center;
+        margin-left: 0 !important;
+    }
+    .nav-icon-link,
+    .online-game-container, 
+    .nav-container  {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    img {
+        width: 100%;
+    }
+    .link a,
+    .flow-us {
+        display: block;
+        margin-bottom: 2em;
+        margin-left: 0em;
+    }
+    /* banner */
+    .banner-container,
+    .gamer-container,
+    .download-container,
+    .careers-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 0;
+    }
+
+    .banner-container .banner-info {
+        order: 1;
+        padding: 30px 50px;
+    }
+
+    /* gamer section */
+    .gamer-container .gamer-info {
+        text-align: center;
+    }
+
+    /* online game section */
+    .online-game-title,
+    .online-game-container,
+    .download-container,
+    .footer-container a {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .download-container .download-info {
+        text-align: center;
+    }
+
+    .download-container .download-image .overly-picture {
+        width: 40%;
+    }
+
+    /* careers section */
+    .careers-info-content, .footer-container {
+        padding: 50px 50px;
+    }
+
+    /* game category section  */
+    .game-category-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        padding: 50px 50px;
+        column-gap: 0px;
+        row-gap: 10px;
+    }
+    .game-category-item img {
+        padding: 3px;
+        height: 40px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .game-category-item a {
+        font-size: 12px;
+
+    }
+
+    /* footer services  */
+
+    .footer-services {
+        padding: 0 0px;
+        grid-template-columns: repeat(3, 2fr);
+        margin: 30px 0;
+    }
+
+    /* footer icon */
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-terms-and-condition {
+        padding: 0 20px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+    }
+
+}
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px){
 
     /* header */
     .download-container,
@@ -39,7 +170,6 @@
     }
 
     .nav-icon-link,
-    .online-game-container, 
     .nav-container  {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -109,16 +239,13 @@
         padding: 50px 50px;
         column-gap: 0px;
         row-gap: 10px;
-
     }
-
     .game-category-item img {
         padding: 3px;
         height: 40px;
         width: 40px;
         margin-right: 5px;
     }
-
     .game-category-item a {
         font-size: 12px;
 
@@ -139,7 +266,7 @@
 
     }
 
-    .footer-terms-and-condition {
+    .footer-terms-and-condition,   .online-game-container {
         padding: 0 20px;
         grid-template-columns: repeat(2, 1fr);
         margin-top: 20px;
