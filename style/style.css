@@ -129,7 +129,7 @@ body {
 }
 
 /* banner section styles start */
-.banner-container {
+.inner-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -148,45 +148,41 @@ body {
 }
 
 
-.banner-container .banner-info .banner-title {
+.inner-container .banner-info .banner-title {
     font-size: 2em;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-.banner-container .banner-info .banner-highlight-title {
+.inner-container .banner-info .banner-highlight-title {
     font-size: 65px;
 
 }
 
-.banner-container .banner-info .banner-info-summary li {
+.inner-container .banner-info .banner-info-summary li {
     margin-bottom: 1em;
     font-size: 20px;
     color: var(--secondary-color);
 }
 
-.banner-container .banner-info .banner-info-summary li i {
+.inner-container .banner-info .banner-info-summary li i {
     width: 30px;
     color: var(--primary-color);
 }
 
-.banner-container .banner-info .banner-info-summary .download {
+.inner-container .banner-info .banner-info-summary .download {
     color: #F948B2;
 
 }
 
-.banner-container .banner-info .banner-button {
+.inner-container .banner-info .banner-button {
     margin-top: 2.3em;
     display: flex;
     gap: 1.5em;
 }
 
-.banner-container .banner-info .btn-modified {
+.banner-info .btn-modified {
     background: #4EC5F7;
-}
-.inner-image .banner-image-modified{
-    width: 75% !important;
-
 }
 /* gamer section styles start */
 .gamer-container {

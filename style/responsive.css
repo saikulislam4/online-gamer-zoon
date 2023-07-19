@@ -36,6 +36,10 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .nav-logo {
+        display: grid;
+        justify-content: center;
+    }
 
     img {
         width: 100%;
@@ -47,7 +51,7 @@
         margin-left: 0em;
     }
     /* banner */
-    .banner-container,
+    .inner-container,
     .gamer-container,
     .download-container,
     .careers-content {
@@ -59,14 +63,17 @@
     .banner-inner {
         padding: 0;
         display: grid;
-        justify-content: start;
+        justify-content: center;
     }
-    .banner-container {
+    .inner-container {
         background-size:contain;
         background-position: bottom;
     }
+    .inner-image .banner-image-modified {
+        width: 100% !important;
+    }
 
-    .banner-container .banner-info {
+    .inner-container .banner-info {
         order: 1;
         padding: 0 50px;
     }
@@ -176,6 +183,7 @@
         display: grid;
         justify-content: center;
     }
+  
 
 
     .flow-us,
@@ -204,7 +212,7 @@
     }
 
     /* banner */
-    .banner-container,
+    .inner-container,
     .gamer-container,
     .download-container,
     .careers-content {
@@ -216,16 +224,16 @@
     .banner-inner {
         padding: 0;
         display: grid;
-        justify-content: start;
+        justify-content: center;
     }
-    .banner-container {
+    .inner-container {
         background-size:contain;
         background-position: bottom;
     }
     .inner-image.container {
         text-align: center;
     }
-    .banner-container .banner-info {
+    .inner-container .banner-info {
         order: 1;
         padding: 22% 50px;
 
