@@ -56,6 +56,15 @@
         align-items: center;
         gap: 0;
     }
+    .banner-inner {
+        padding: 0;
+        display: grid;
+        justify-content: start;
+    }
+    .banner-container {
+        background-size:contain;
+        background-position: bottom;
+    }
 
     .banner-container .banner-info {
         order: 1;
@@ -138,6 +147,11 @@
     .banner-image {
         margin: 0 20px;
     }
+    .banner-inner {
+        padding:100px 0;
+        display: grid;
+        justify-content: center;
+    }
 
     .btn-primary {
 
@@ -146,9 +160,6 @@
 
     }
 
-    .primary-title {
-        font-size: 2em;
-    }
 
     /* padding  */
     .nav-container,
@@ -161,6 +172,11 @@
     .footer-reservation  {
         padding: 0 50px;
     }
+    .nav-logo{
+        display: grid;
+        justify-content: center;
+    }
+
 
     .flow-us,
     .link a {
@@ -196,6 +212,15 @@
         grid-template-columns: 1fr;
         align-items: center;
         gap: 0;
+    }
+    .banner-inner {
+        padding: 0;
+        display: grid;
+        justify-content: start;
+    }
+    .banner-container {
+        background-size:contain;
+        background-position: bottom;
     }
 
     .banner-container .banner-info {
