@@ -138,6 +138,9 @@
         grid-template-columns: repeat(2, 1fr);
         margin-top: 20px;
     }
+    .footer-logo a>img {
+        margin-top: 4px;
+    }
 
 }
 /* medium device */
