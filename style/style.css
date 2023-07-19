@@ -129,16 +129,18 @@ body {
 }
 
 /* banner section styles start */
-.inner-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 150px;
+.banner-container{
     background: url(../images/banner-info-bg.png) no-repeat;
     background-size: contain;
     background-position:left;
 
 
+}
+.inner-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 150px;
 }
 
 .banner-inner {

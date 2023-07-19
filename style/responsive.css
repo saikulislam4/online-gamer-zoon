@@ -65,9 +65,9 @@
         display: grid;
         justify-content: center;
     }
-    .inner-container {
-        background-size:contain;
-        background-position: bottom;
+    .banner-container{
+        background-size: contain;
+        background-position:bottom;
     }
     .inner-image .banner-image-modified {
         width: 100% !important;
@@ -118,9 +118,7 @@
     }
     .game-category-item a {
         font-size: 12px;
-
     }
-
     /* footer services  */
 
     .footer-services {
@@ -223,9 +221,9 @@
         display: grid;
         justify-content: center;
     }
-    .inner-container {
-        background-size:contain;
-        background-position: bottom;
+    .banner-container{
+        background-size: contain;
+        background-position:bottom;
     }
     .inner-image.container {
         text-align: center;
