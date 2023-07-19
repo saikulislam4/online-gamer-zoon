@@ -19,7 +19,9 @@ li {
     color: var(--primary-color);
     font-weight: 700;
 }
-
+img{
+    width: 100%;
+}
 body {
     color: var(--primary-color);
     font-family: var(--primary-font-family);
@@ -134,10 +136,9 @@ body {
 }
 
 .banner-container .banner-info {
-    padding: 170px 150px 170px 150px;
+    padding: 170px 150px 170px 0px;
     background: url(../images/banner-info-bg.png) no-repeat;
     background-position: -100px;
-    background-size: fill;
 
 }
 
@@ -260,6 +261,9 @@ body {
     background: var(--primary-color);
 
 }
+.overly-picture{
+    width: 40%;
+}
 
 /* online gamer hover */
 .online-game-content .inner-item:hover .item-center-icon {
@@ -298,11 +302,33 @@ body {
     background:var(--btn-primary-bg);
     
 }
-.careers-container .careers-content{
+.careers-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.careers-info-content{
+    color: var(--primary-bg);
+    padding: 50px 0;
 }
 .careers-container .category-content{
     display: flex;
     justify-content: space-between;
+}
+.careers-des-modified{
+    color: var(--primary-bg);
+    margin-bottom: 2em;
+}
+.category-item li{
+    color: var(--primary-bg);
+    margin-bottom: 1em;
+}
+#careers-btn-modified{
+    margin-top: 40px;
+    font-weight: 700;
+    color:  #FF42A5 !important;
+    background: var(--primary-bg);
 }

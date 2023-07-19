@@ -1,7 +1,7 @@
 /* small device */
 @media screen and (max-width:576px) {
     /* header */
-    body{
+    .download-container, .careers-item-image, .banner-image  {
         margin: 0 20px;
     }
     .btn-primary{
@@ -37,7 +37,7 @@
        
     }
     /* banner */
-    .banner-container, .gamer-container, .download-container{
+    .banner-container, .gamer-container, .download-container, .careers-content{
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
@@ -66,6 +66,10 @@
  
         width: 40%;
     }
+/* careers section */
+.careers-info-content{
+    padding: 50px 50px;
+}
 
 
    
